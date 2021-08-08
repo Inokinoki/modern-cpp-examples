@@ -13,8 +13,8 @@ C++11 includes the following new language features:
 | static assertions |      |
 | auto |      |
 | lambda expressions |      |
-| decltype |      |
-| type aliases |      |
+| decltype | `type.cpp` |
+| type aliases | `type.cpp` |
 | nullptr |      |
 | strongly-typed enums |      |
 | attributes |      |
