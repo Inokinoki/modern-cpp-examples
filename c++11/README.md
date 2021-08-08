@@ -51,11 +51,11 @@ C++11 includes the following new library features:
 | std::chrono | `move.cpp` |
 | tuples | `tuples.cpp` |
 | std::tie | `tuples.cpp` |
-| std::array |      |
+| std::array | `array.cpp` |
 | unordered containers |      |
 | std::make_shared |      |
 | std::ref |      |
 | memory model |      |
 | std::async |      |
-| std::begin/end |      |
+| std::begin/end | `array.cpp` |
 
