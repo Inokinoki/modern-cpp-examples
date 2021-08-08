@@ -1,0 +1,61 @@
+
+# Examples for features in C++11
+
+C++11 includes the following new language features:
+
+| Features       | Examples |
+| -------------- | ---- |
+| move semantics | `smart_pointer.cpp`, `move.cpp` |
+| variadic templates |      |
+| rvalue references |      |
+| forwarding references |      |
+| initializer lists |      |
+| static assertions |      |
+| auto |      |
+| lambda expressions |      |
+| decltype |      |
+| type aliases |      |
+| nullptr |      |
+| strongly-typed enums |      |
+| attributes |      |
+| constexpr |      |
+| delegating constructors |      |
+| user-defined literals |      |
+| explicit virtual overrides |      |
+| final specifier |      |
+| default functions |      |
+| deleted functions |      |
+| range-based for loops |      |
+| special member functions for move semantics |      |
+| converting constructors |      |
+| explicit conversion functions |      |
+| inline-namespaces |      |
+| non-static data member initializers |      |
+| right angle brackets |      |
+| ref-qualified member functions |      |
+| trailing return types |      |
+| noexcept specifier |      |
+| char32_t and char16_t |      |
+| raw string literals |      |
+
+C++11 includes the following new library features:
+
+| Features       | Example |
+| -------------- | ---- |
+| std::move | `smart_pointer.cpp`, `move.cpp` |
+| std::forward |      |
+| std::thread |      |
+| std::to_string |      |
+| type traits |      |
+| smart pointers | `smart_pointer.cpp` |
+| std::chrono |      |
+| tuples |      |
+| std::tie |      |
+| std::array |      |
+| unordered containers |      |
+| std::make_shared |      |
+| std::ref |      |
+| memory model |      |
+| std::async |      |
+| std::begin/end |      |
+
