@@ -31,7 +31,7 @@ C++11 includes the following new language features:
 | explicit conversion functions |      |
 | inline-namespaces |      |
 | non-static data member initializers |      |
-| right angle brackets |      |
+| right angle brackets | Pass |
 | ref-qualified member functions |      |
 | trailing return types |      |
 | noexcept specifier |      |
@@ -55,7 +55,7 @@ C++11 includes the following new library features:
 | unordered containers |      |
 | std::make_shared |      |
 | std::ref |      |
-| memory model |      |
+| memory model | Generic for thread, async executions |
 | std::async |      |
 | std::begin/end | `array.cpp` |
 
