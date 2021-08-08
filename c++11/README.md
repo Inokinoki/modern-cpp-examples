@@ -49,8 +49,8 @@ C++11 includes the following new library features:
 | type traits |      |
 | smart pointers | `smart_pointer.cpp` |
 | std::chrono |      |
-| tuples |      |
-| std::tie |      |
+| tuples | `tuples.cpp` |
+| std::tie | `tuples.cpp` |
 | std::array |      |
 | unordered containers |      |
 | std::make_shared |      |
