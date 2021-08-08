@@ -11,11 +11,11 @@ C++11 includes the following new language features:
 | forwarding references |      |
 | initializer lists |      |
 | static assertions |      |
-| auto |      |
+| auto | Many examples are using this |
 | lambda expressions |      |
 | decltype | `type.cpp` |
 | type aliases | `type.cpp` |
-| nullptr |      |
+| nullptr | Pass |
 | strongly-typed enums |      |
 | attributes |      |
 | constexpr |      |
@@ -48,7 +48,7 @@ C++11 includes the following new library features:
 | std::to_string | `to_string.cpp` |
 | type traits |      |
 | smart pointers | `smart_pointer.cpp` |
-| std::chrono |      |
+| std::chrono | `move.cpp` |
 | tuples | `tuples.cpp` |
 | std::tie | `tuples.cpp` |
 | std::array |      |
