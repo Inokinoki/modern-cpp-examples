@@ -45,7 +45,7 @@ C++11 includes the following new library features:
 | std::move | `smart_pointer.cpp`, `move.cpp` |
 | std::forward |      |
 | std::thread |      |
-| std::to_string |      |
+| std::to_string | `to_string.cpp` |
 | type traits |      |
 | smart pointers | `smart_pointer.cpp` |
 | std::chrono |      |
