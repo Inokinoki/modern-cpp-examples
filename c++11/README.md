@@ -16,8 +16,8 @@ C++11 includes the following new language features:
 | decltype | `type.cpp` |
 | type aliases | `type.cpp` |
 | nullptr | Pass |
-| strongly-typed enums |      |
-| attributes |      |
+| strongly-typed enums | Pass |
+| attributes | Pass |
 | constexpr | `const_expr.cpp` |
 | delegating constructors | `class.cpp` |
 | user-defined literals |      |
@@ -28,8 +28,8 @@ C++11 includes the following new language features:
 | range-based for loops | `array.cpp` |
 | special member functions for move semantics |      |
 | converting constructors | `initializer.cpp`, `smart_pointer.cpp` |
-| explicit conversion functions |      |
-| inline-namespaces |      |
+| explicit conversion functions | Pass |
+| inline-namespaces | Pass |
 | non-static data member initializers | `class.cpp` |
 | right angle brackets | Pass |
 | ref-qualified member functions |      |
@@ -52,7 +52,7 @@ C++11 includes the following new library features:
 | tuples | `tuples.cpp` |
 | std::tie | `tuples.cpp` |
 | std::array | `array.cpp` |
-| unordered containers |      |
+| unordered containers | Pass |
 | std::make_shared | `smart_pointer.cpp` |
 | std::ref |      |
 | memory model | Generic for thread, async executions |
