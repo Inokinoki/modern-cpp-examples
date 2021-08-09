@@ -19,12 +19,12 @@ C++11 includes the following new language features:
 | strongly-typed enums |      |
 | attributes |      |
 | constexpr |      |
-| delegating constructors |      |
+| delegating constructors | `class.cpp` |
 | user-defined literals |      |
-| explicit virtual overrides |      |
-| final specifier |      |
-| default functions |      |
-| deleted functions |      |
+| explicit virtual overrides | `class.cpp` |
+| final specifier | `class.cpp` |
+| default functions | `class.cpp` |
+| deleted functions | `class.cpp` |
 | range-based for loops |      |
 | special member functions for move semantics |      |
 | converting constructors |      |
