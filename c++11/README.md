@@ -53,7 +53,7 @@ C++11 includes the following new library features:
 | std::tie | `tuples.cpp` |
 | std::array | `array.cpp` |
 | unordered containers |      |
-| std::make_shared |      |
+| std::make_shared | `smart_pointer.cpp` |
 | std::ref |      |
 | memory model | Generic for thread, async executions |
 | std::async |      |

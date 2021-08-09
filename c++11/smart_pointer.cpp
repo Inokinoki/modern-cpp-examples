@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
     // std::shared_ptr is a smart pointer that manages a resource that is shared across multiple owners.
     std::cerr << std::endl << "Creating std::shared_ptr sp1" << std::endl;
-    std::shared_ptr<LifecycleLogger> sp1 { new LifecycleLogger(std::cerr) };
+    std::shared_ptr<LifecycleLogger> sp1 = std::make_shared<LifecycleLogger>(std::cerr);
 
     std::cerr << "[SharedPtr] Ref count of sp1: " << sp1.use_count() << std::endl;
     function_use_shared_ptr(sp1);   // Ref count +1 when copied, -1 when the copied instance is out-of-scope
