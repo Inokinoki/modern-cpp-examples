@@ -25,7 +25,7 @@ C++11 includes the following new language features:
 | final specifier | `class.cpp` |
 | default functions | `class.cpp` |
 | deleted functions | `class.cpp` |
-| range-based for loops |      |
+| range-based for loops | `array.cpp` |
 | special member functions for move semantics |      |
 | converting constructors |      |
 | explicit conversion functions |      |
