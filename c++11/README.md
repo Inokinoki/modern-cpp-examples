@@ -32,7 +32,7 @@ C++11 includes the following new language features:
 | inline-namespaces | Pass |
 | non-static data member initializers | `class.cpp` |
 | right angle brackets | Pass |
-| ref-qualified member functions |      |
+| ref-qualified member functions | `ref.cpp` |
 | trailing return types | `types.cpp`, `lambda.cpp` |
 | noexcept specifier | `no_except.cpp` |
 | char32_t and char16_t | `strings.cpp` |
@@ -54,7 +54,7 @@ C++11 includes the following new library features:
 | std::array | `array.cpp` |
 | unordered containers | Pass |
 | std::make_shared | `smart_pointer.cpp` |
-| std::ref |      |
+| std::ref | `ref.cpp` |
 | memory model | Generic for thread, async executions |
 | std::async | `multithread.cpp` |
 | std::begin/end | `array.cpp` |
