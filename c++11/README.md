@@ -35,8 +35,8 @@ C++11 includes the following new language features:
 | ref-qualified member functions |      |
 | trailing return types | `types.cpp` |
 | noexcept specifier |      |
-| char32_t and char16_t |      |
-| raw string literals |      |
+| char32_t and char16_t | `strings.cpp` |
+| raw string literals | `strings.cpp` |
 
 C++11 includes the following new library features:
 
