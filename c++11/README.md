@@ -46,7 +46,7 @@ C++11 includes the following new library features:
 | std::forward |      |
 | std::thread |      |
 | std::to_string | `to_string.cpp` |
-| type traits |      |
+| type traits | `types.cpp` |
 | smart pointers | `smart_pointer.cpp` |
 | std::chrono | `move.cpp` |
 | tuples | `tuples.cpp` |

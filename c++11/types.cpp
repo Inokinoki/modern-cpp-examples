@@ -1,12 +1,19 @@
 #include <iostream>
 #include <vector>
 
+#include "common.h"
+
 /* Error, must use decltype to have a type
 template <typename X, typename Y>
 auto add(X x, Y y) {
     return x + y;
 }
 */
+
+// Type traits defines a compile-time template-based interface to query or modify the properties of types.
+static_assert(std::is_same<int32_t, int>::value);
+static_assert(std::has_virtual_destructor<LifecycleLogger>::value);
+static_assert(std::is_same<std::conditional<true, int, double>::type, int>::value);
 
 // This uses `tailing return types
 template <typename X, typename Y>
