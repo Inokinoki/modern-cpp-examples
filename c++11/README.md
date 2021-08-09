@@ -44,7 +44,7 @@ C++11 includes the following new library features:
 | -------------- | ---- |
 | std::move | `smart_pointer.cpp`, `move.cpp` |
 | std::forward |      |
-| std::thread |      |
+| std::thread | `multithread.cpp` |
 | std::to_string | `to_string.cpp` |
 | type traits | `types.cpp` |
 | smart pointers | `smart_pointer.cpp` |
@@ -56,6 +56,6 @@ C++11 includes the following new library features:
 | std::make_shared | `smart_pointer.cpp` |
 | std::ref |      |
 | memory model | Generic for thread, async executions |
-| std::async |      |
+| std::async | `multithread.cpp` |
 | std::begin/end | `array.cpp` |
 
