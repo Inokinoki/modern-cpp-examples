@@ -5,10 +5,10 @@ C++11 includes the following new language features:
 
 | Features       | Examples |
 | -------------- | ---- |
-| move semantics | `smart_pointer.cpp`, `move.cpp` |
+| move semantics | `smart_pointer.cpp`, `move.cpp`, `rvalue_references.cpp` |
 | variadic templates | `variadic_template.cpp` |
-| rvalue references |      |
-| forwarding references |      |
+| rvalue references | `rvalue_references.cpp` |
+| forwarding references | `rvalue_references.cpp` |
 | initializer lists | `initializer.cpp` |
 | static assertions | `const_expr.cpp` |
 | auto | Many examples are using this |
@@ -26,7 +26,7 @@ C++11 includes the following new language features:
 | default functions | `class.cpp` |
 | deleted functions | `class.cpp` |
 | range-based for loops | `array.cpp` |
-| special member functions for move semantics |      |
+| special member functions for move semantics | `rvalue_references.cpp` |
 | converting constructors | `initializer.cpp`, `smart_pointer.cpp` |
 | explicit conversion functions | Pass |
 | inline-namespaces | Pass |
@@ -42,8 +42,8 @@ C++11 includes the following new library features:
 
 | Features       | Example |
 | -------------- | ---- |
-| std::move | `smart_pointer.cpp`, `move.cpp` |
-| std::forward |      |
+| std::move | `smart_pointer.cpp`, `move.cpp`, `rvalue_references.cpp` |
+| std::forward | `rvalue_references.cpp` |
 | std::thread | `multithread.cpp` |
 | std::to_string | `to_string.cpp` |
 | type traits | `types.cpp` |
