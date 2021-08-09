@@ -8,6 +8,7 @@ auto add(X x, Y y) {
 }
 */
 
+// This uses `tailing return types
 template <typename X, typename Y>
 auto addWithDecltype(X x, Y y) -> decltype(x + y) {
     return x + y;
