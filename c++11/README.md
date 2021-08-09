@@ -9,7 +9,7 @@ C++11 includes the following new language features:
 | variadic templates |      |
 | rvalue references |      |
 | forwarding references |      |
-| initializer lists |      |
+| initializer lists | `initializer.cpp` |
 | static assertions |      |
 | auto | Many examples are using this |
 | lambda expressions |      |
@@ -27,7 +27,7 @@ C++11 includes the following new language features:
 | deleted functions | `class.cpp` |
 | range-based for loops | `array.cpp` |
 | special member functions for move semantics |      |
-| converting constructors |      |
+| converting constructors | `initializer.cpp` |
 | explicit conversion functions |      |
 | inline-namespaces |      |
 | non-static data member initializers |      |
