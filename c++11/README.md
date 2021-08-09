@@ -6,7 +6,7 @@ C++11 includes the following new language features:
 | Features       | Examples |
 | -------------- | ---- |
 | move semantics | `smart_pointer.cpp`, `move.cpp` |
-| variadic templates |      |
+| variadic templates | `variadic_template.cpp` |
 | rvalue references |      |
 | forwarding references |      |
 | initializer lists | `initializer.cpp` |
