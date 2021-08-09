@@ -12,7 +12,7 @@ C++11 includes the following new language features:
 | initializer lists | `initializer.cpp` |
 | static assertions | `const_expr.cpp` |
 | auto | Many examples are using this |
-| lambda expressions |      |
+| lambda expressions | `lambda.cpp` |
 | decltype | `type.cpp` |
 | type aliases | `type.cpp` |
 | nullptr | Pass |
@@ -33,7 +33,7 @@ C++11 includes the following new language features:
 | non-static data member initializers | `class.cpp` |
 | right angle brackets | Pass |
 | ref-qualified member functions |      |
-| trailing return types | `types.cpp` |
+| trailing return types | `types.cpp`, `lambda.cpp` |
 | noexcept specifier |      |
 | char32_t and char16_t | `strings.cpp` |
 | raw string literals | `strings.cpp` |
