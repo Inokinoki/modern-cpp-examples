@@ -10,7 +10,7 @@ C++11 includes the following new language features:
 | rvalue references |      |
 | forwarding references |      |
 | initializer lists | `initializer.cpp` |
-| static assertions |      |
+| static assertions | `const_expr.cpp` |
 | auto | Many examples are using this |
 | lambda expressions |      |
 | decltype | `type.cpp` |
@@ -18,7 +18,7 @@ C++11 includes the following new language features:
 | nullptr | Pass |
 | strongly-typed enums |      |
 | attributes |      |
-| constexpr |      |
+| constexpr | `const_expr.cpp` |
 | delegating constructors | `class.cpp` |
 | user-defined literals |      |
 | explicit virtual overrides | `class.cpp` |
