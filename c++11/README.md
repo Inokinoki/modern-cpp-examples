@@ -20,7 +20,7 @@ C++11 includes the following new language features:
 | attributes | Pass |
 | constexpr | `const_expr.cpp` |
 | delegating constructors | `class.cpp` |
-| user-defined literals |      |
+| user-defined literals | `userdefined_literal.cpp` |
 | explicit virtual overrides | `class.cpp` |
 | final specifier | `class.cpp` |
 | default functions | `class.cpp` |
