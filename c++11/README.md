@@ -27,10 +27,10 @@ C++11 includes the following new language features:
 | deleted functions | `class.cpp` |
 | range-based for loops | `array.cpp` |
 | special member functions for move semantics |      |
-| converting constructors | `initializer.cpp` |
+| converting constructors | `initializer.cpp`, `smart_pointer.cpp` |
 | explicit conversion functions |      |
 | inline-namespaces |      |
-| non-static data member initializers |      |
+| non-static data member initializers | `class.cpp` |
 | right angle brackets | Pass |
 | ref-qualified member functions |      |
 | trailing return types | `types.cpp` |
