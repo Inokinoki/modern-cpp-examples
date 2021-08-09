@@ -34,7 +34,7 @@ C++11 includes the following new language features:
 | right angle brackets | Pass |
 | ref-qualified member functions |      |
 | trailing return types | `types.cpp`, `lambda.cpp` |
-| noexcept specifier |      |
+| noexcept specifier | `no_except.cpp` |
 | char32_t and char16_t | `strings.cpp` |
 | raw string literals | `strings.cpp` |
 
