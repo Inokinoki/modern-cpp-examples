@@ -10,14 +10,14 @@ C++17 includes the following new language features:
 | new rules for auto deduction from braced-init-list | `types.cpp` |
 | constexpr lambda | `constexpr.cpp` |
 | lambda capture this by value | `lambda.cpp` |
-| inline variables |     |
+| inline variables | Pass |
 | nested namespaces | Pass |
 | structured bindings | `structured_binding.cpp` |
 | selection statements with initializer |     |
 | constexpr if | `constexpr.cpp` |
-| utf-8 character literals |     |
+| utf-8 character literals |  Pass |
 | direct-list-initialization of enums |     |
-| fallthrough, nodiscard, maybe_unused attributes |     |
+| fallthrough, nodiscard, maybe_unused attributes | Pass |
 
 C++17 includes the following new library features:
 
@@ -29,7 +29,7 @@ C++17 includes the following new library features:
 | std::string_view | `types.cpp` |
 | std::invoke | `lambda.cpp` |
 | std::apply | `lambda.cpp` |
-| std::filesystem |     |
+| std::filesystem | Pass |
 | std::byte | `types.cpp` |
 | splicing for maps and sets |     |
 | parallel algorithms |     |
