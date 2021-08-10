@@ -27,8 +27,8 @@ C++17 includes the following new library features:
 | std::optional | `types.cpp` |
 | std::any | `types.cpp` |
 | std::string_view | `types.cpp` |
-| std::invoke |     |
-| std::apply |     |
+| std::invoke | `lambda.cpp` |
+| std::apply | `lambda.cpp` |
 | std::filesystem |     |
 | std::byte | `types.cpp` |
 | splicing for maps and sets |     |
