@@ -32,5 +32,5 @@ C++17 includes the following new library features:
 | std::filesystem | Pass |
 | std::byte | `types.cpp` |
 | splicing for maps and sets | Pass |
-| parallel algorithms |     |
+| parallel algorithms | `parallel.cpp` |
 
