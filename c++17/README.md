@@ -8,13 +8,13 @@ C++17 includes the following new language features:
 | declaring non-type template parameters with auto |     |
 | folding expressions |     |
 | new rules for auto deduction from braced-init-list |     |
-| constexpr lambda |     |
+| constexpr lambda | `constexpr.cpp` |
 | lambda capture this by value | `lambda.cpp` |
 | inline variables |     |
-| nested namespaces |     |
+| nested namespaces | Pass |
 | structured bindings |     |
 | selection statements with initializer |     |
-| constexpr if |     |
+| constexpr if | `constexpr.cpp` |
 | utf-8 character literals |     |
 | direct-list-initialization of enums |     |
 | fallthrough, nodiscard, maybe_unused attributes |     |
