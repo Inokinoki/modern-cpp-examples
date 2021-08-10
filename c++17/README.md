@@ -26,7 +26,7 @@ C++17 includes the following new library features:
 | std::variant | `types.cpp` |
 | std::optional | `types.cpp` |
 | std::any | `types.cpp` |
-| std::string_view |     |
+| std::string_view | `types.cpp` |
 | std::invoke |     |
 | std::apply |     |
 | std::filesystem |     |

@@ -6,6 +6,8 @@
 // std::byte
 #include <cstddef>
 
+#include <string_view>
+
 std::optional<std::string> create(bool b) {
     if (b) {
         return "Godzilla";
@@ -47,6 +49,22 @@ int main()
     int i = std::to_integer<int>(b); // 0xFF
     std::byte c = a & b;
     int j = std::to_integer<int>(c); // 0
+
+    // string views: A non-owning reference to a string.
+    // Useful for providing an abstraction on top of strings (e.g. for parsing).
+    // Regular strings.
+    std::string_view cppstr {"foo"};
+    // Wide strings.
+    std::wstring_view wcstr_v {L"baz"};
+    // Character arrays.
+    char array[3] = {'b', 'a', 'r'};
+    std::string_view array_v(array, std::size(array));
+
+    std::string str {"   trim me"};
+    std::string_view viewer {str};
+    viewer.remove_prefix(std::min(viewer.find_first_not_of(" "), viewer.size()));
+    std::cerr << str << std::endl; //  == "   trim me"
+    std::cerr << viewer << std::endl; // == "trim me"
 
     return 0;
 }
