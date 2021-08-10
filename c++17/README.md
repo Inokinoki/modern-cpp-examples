@@ -16,7 +16,7 @@ C++17 includes the following new language features:
 | selection statements with initializer |     |
 | constexpr if | `constexpr.cpp` |
 | utf-8 character literals |  Pass |
-| direct-list-initialization of enums |     |
+| direct-list-initialization of enums | `enum.cpp` |
 | fallthrough, nodiscard, maybe_unused attributes | Pass |
 
 C++17 includes the following new library features:
