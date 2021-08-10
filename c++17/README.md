@@ -5,7 +5,7 @@ C++17 includes the following new language features:
 | Features       | Examples |
 | -------------- | ---- |
 | template argument deduction for class templates | `class.cpp` |
-| declaring non-type template parameters with auto |     |
+| declaring non-type template parameters with auto | `nontype_template.cpp` |
 | folding expressions |     |
 | new rules for auto deduction from braced-init-list | `types.cpp` |
 | constexpr lambda | `constexpr.cpp` |
