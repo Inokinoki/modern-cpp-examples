@@ -7,7 +7,7 @@ C++17 includes the following new language features:
 | template argument deduction for class templates |     |
 | declaring non-type template parameters with auto |     |
 | folding expressions |     |
-| new rules for auto deduction from braced-init-list |     |
+| new rules for auto deduction from braced-init-list | `types.cpp` |
 | constexpr lambda | `constexpr.cpp` |
 | lambda capture this by value | `lambda.cpp` |
 | inline variables |     |

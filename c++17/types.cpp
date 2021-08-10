@@ -66,5 +66,14 @@ int main()
     std::cerr << str << std::endl; //  == "   trim me"
     std::cerr << viewer << std::endl; // == "trim me"
 
+    // Init rule
+    // auto x1 {1, 2, 3}; // error: not a single element
+    auto x2 = {1, 2, 3}; // x2 is std::initializer_list<int>
+    static_assert(std::is_same<decltype(x2), std::initializer_list<int>>::value);
+    auto x3 {3}; // x3 is int
+    static_assert(std::is_same<decltype(x3), int>::value);
+    auto x4 {3.0}; // x4 is double
+    static_assert(std::is_same<decltype(x4), double>::value);
+
     return 0;
 }
