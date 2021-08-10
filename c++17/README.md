@@ -13,7 +13,7 @@ C++17 includes the following new language features:
 | inline variables | Pass |
 | nested namespaces | Pass |
 | structured bindings | `structured_binding.cpp` |
-| selection statements with initializer |     |
+| selection statements with initializer | Pass |
 | constexpr if | `constexpr.cpp` |
 | utf-8 character literals |  Pass |
 | direct-list-initialization of enums | `enum.cpp` |
@@ -31,6 +31,6 @@ C++17 includes the following new library features:
 | std::apply | `lambda.cpp` |
 | std::filesystem | Pass |
 | std::byte | `types.cpp` |
-| splicing for maps and sets |     |
+| splicing for maps and sets | Pass |
 | parallel algorithms |     |
 
