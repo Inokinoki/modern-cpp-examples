@@ -12,7 +12,7 @@ C++17 includes the following new language features:
 | lambda capture this by value | `lambda.cpp` |
 | inline variables |     |
 | nested namespaces | Pass |
-| structured bindings |     |
+| structured bindings | `structured_binding.cpp` |
 | selection statements with initializer |     |
 | constexpr if | `constexpr.cpp` |
 | utf-8 character literals |     |
