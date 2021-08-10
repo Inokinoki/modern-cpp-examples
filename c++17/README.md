@@ -23,14 +23,14 @@ C++17 includes the following new library features:
 
 | Features       | Examples |
 | -------------- | ---- |
-| std::variant |     |
-| std::optional |     |
-| std::any |     |
+| std::variant | `types.cpp` |
+| std::optional | `types.cpp` |
+| std::any | `types.cpp` |
 | std::string_view |     |
 | std::invoke |     |
 | std::apply |     |
 | std::filesystem |     |
-| std::byte |     |
+| std::byte | `types.cpp` |
 | splicing for maps and sets |     |
 | parallel algorithms |     |
 
