@@ -6,10 +6,10 @@ C++20 includes the following new language features:
 | -------------- | ---- |
 | coroutines |  |
 | concepts |  |
-| designated initializers |  |
+| designated initializers | `class.cpp` |
 | template syntax for lambdas |  |
 | range-based for loop with initializer |  |
-| likely and unlikely attributes |  |
+| likely and unlikely attributes | Pass |
 | deprecate implicit capture of this |  |
 | class types in non-type template parameters |  |
 | constexpr virtual functions |  |
