@@ -17,6 +17,16 @@ struct Foo {
     }
 };
 
+struct Bar {
+  Bar() = default;
+  constexpr Bar(int) {}
+};
+
+template <Bar f>
+auto get_foo() {
+  return f;
+}
+
 int main()
 {
     // C-style designated initializer syntax
@@ -27,6 +37,10 @@ int main()
     Foo intfoo = 123; // OK
     // foo b = "123"; // ERROR: explicit constructor is not a candidate (explicit specifier evaluates to true)
     Foo c {"123"}; // OK, because it is not explicit
+
+    // Classes can now be used in non-type template parameters.
+    // get_foo(); // uses implicit constructor
+    get_foo<Bar{123}>();
 
     return 0;
 }

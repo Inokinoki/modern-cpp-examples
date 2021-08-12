@@ -11,7 +11,7 @@ C++20 includes the following new language features:
 | range-based for loop with initializer | `loop.cpp` |
 | likely and unlikely attributes | Pass |
 | deprecate implicit capture of this | `lambda.cpp` |
-| class types in non-type template parameters |  |
+| class types in non-type template parameters | `class.cpp` |
 | constexpr virtual functions |  |
 | explicit(bool) | `class.cpp` |
 | immediate functions | `immediate_function.cpp` |
