@@ -12,7 +12,7 @@ C++20 includes the following new language features:
 | likely and unlikely attributes | Pass |
 | deprecate implicit capture of this | `lambda.cpp` |
 | class types in non-type template parameters | `class.cpp` |
-| constexpr virtual functions |  |
+| constexpr virtual functions | `constexpr.cpp` |
 | explicit(bool) | `class.cpp` |
 | immediate functions | `immediate_function.cpp` |
 | using enum | `enum.cpp` |
