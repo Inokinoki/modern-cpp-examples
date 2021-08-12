@@ -26,12 +26,12 @@ C++20 includes the following new library features:
 | concepts library |  |
 | synchronized buffered outputstream |  |
 | std::span | `types.cpp` |
-| bit operations |  |
-| math constants |  |
+| bit operations | `types.cpp` |
+| math constants | `types.cpp` |
 | std::is_constant_evaluated | `constexpr.cpp` |
 | std::make_shared supports arrays |  |
 | starts_with and ends_with on strings |  |
-| check if associative container has element |  |
-| std::bit_cast |  |
-| std::midpoint |  |
-| std::to_array |  |
+| check if associative container has element | `types.cpp` |
+| std::bit_cast | `types.cpp` |
+| std::midpoint | `types.cpp` |
+| std::to_array | `types.cpp` |
