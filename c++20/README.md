@@ -15,7 +15,7 @@ C++20 includes the following new language features:
 | constexpr virtual functions |  |
 | explicit(bool) | `class.cpp` |
 | immediate functions | `immediate_function.cpp` |
-| using enum |  |
+| using enum | `enum.cpp` |
 | lambda capture of parameter pack |  |
 | char8_t |  |
 
