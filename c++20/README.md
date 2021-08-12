@@ -28,7 +28,7 @@ C++20 includes the following new library features:
 | std::span | `types.cpp` |
 | bit operations |  |
 | math constants |  |
-| std::is_constant_evaluated |  |
+| std::is_constant_evaluated | `constexpr.cpp` |
 | std::make_shared supports arrays |  |
 | starts_with and ends_with on strings |  |
 | check if associative container has element |  |
