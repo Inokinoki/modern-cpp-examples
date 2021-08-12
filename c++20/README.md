@@ -7,16 +7,16 @@ C++20 includes the following new language features:
 | coroutines |  |
 | concepts |  |
 | designated initializers | `class.cpp` |
-| template syntax for lambdas |  |
+| template syntax for lambdas | `lambda.cpp` |
 | range-based for loop with initializer | `loop.cpp` |
 | likely and unlikely attributes | Pass |
-| deprecate implicit capture of this |  |
+| deprecate implicit capture of this | `lambda.cpp` |
 | class types in non-type template parameters |  |
 | constexpr virtual functions |  |
 | explicit(bool) | `class.cpp` |
 | immediate functions | `immediate_function.cpp` |
 | using enum | `enum.cpp` |
-| lambda capture of parameter pack |  |
+| lambda capture of parameter pack | `lambda.cpp` |
 | char8_t | `strings.cpp` |
 
 C++20 includes the following new library features:
