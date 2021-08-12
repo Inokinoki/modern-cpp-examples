@@ -29,7 +29,7 @@ C++20 includes the following new library features:
 | bit operations | `types.cpp` |
 | math constants | `types.cpp` |
 | std::is_constant_evaluated | `constexpr.cpp` |
-| std::make_shared supports arrays |  |
+| std::make_shared supports arrays | `smart_pointer.cpp` |
 | starts_with and ends_with on strings |  |
 | check if associative container has element | `types.cpp` |
 | std::bit_cast | `types.cpp` |
