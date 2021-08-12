@@ -13,7 +13,7 @@ C++20 includes the following new language features:
 | deprecate implicit capture of this |  |
 | class types in non-type template parameters |  |
 | constexpr virtual functions |  |
-| explicit(bool) |  |
+| explicit(bool) | `class.cpp` |
 | immediate functions |  |
 | using enum |  |
 | lambda capture of parameter pack |  |
