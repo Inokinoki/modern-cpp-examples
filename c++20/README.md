@@ -24,7 +24,7 @@ C++20 includes the following new library features:
 | Features       | Examples |
 | -------------- | ---- |
 | concepts library |  |
-| synchronized buffered outputstream |  |
+| synchronized buffered outputstream | `synchronized_buffer.cpp` |
 | std::span | `types.cpp` |
 | bit operations | `types.cpp` |
 | math constants | `types.cpp` |
