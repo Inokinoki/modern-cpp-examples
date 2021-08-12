@@ -17,7 +17,7 @@ C++20 includes the following new language features:
 | immediate functions | `immediate_function.cpp` |
 | using enum | `enum.cpp` |
 | lambda capture of parameter pack |  |
-| char8_t |  |
+| char8_t | `strings.cpp` |
 
 C++20 includes the following new library features:
 
@@ -30,7 +30,7 @@ C++20 includes the following new library features:
 | math constants | `types.cpp` |
 | std::is_constant_evaluated | `constexpr.cpp` |
 | std::make_shared supports arrays | `smart_pointer.cpp` |
-| starts_with and ends_with on strings |  |
+| starts_with and ends_with on strings | `strings.cpp` |
 | check if associative container has element | `types.cpp` |
 | std::bit_cast | `types.cpp` |
 | std::midpoint | `types.cpp` |
